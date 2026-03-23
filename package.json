@@ -5,10 +5,11 @@
     "parcel": "^2.7.0"
   },
   "license": "ISC",
-  "name": "taiuo_-_shared_project_(copy)2",
+  "name": "taiuo-website",
+  "private": true,
   "scripts": {
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "start": "parcel ./*.html",
+    "build": "parcel build ./*.html --dist-dir ./dist"
   },
   "version": "1.0.0"
 }

@@ -40,6 +40,12 @@ Only these matter:
 
 You do **not** need anything inside `legacy/`.
 
+If you deploy the **full repo** to Vercel, that is also fine now:
+
+- the repo already includes `vercel.json`
+- Vercel is set to use `dist`
+- `legacy/` is ignored during deployment
+
 ## Step 1: Make a Small Upload Folder
 
 Create a folder on your computer called:
@@ -87,6 +93,8 @@ When Vercel asks for settings:
 
 - Framework Preset: `Other`
 - Root Directory: leave default if `index.html` is in the repo root
+
+If Vercel shows build settings, you usually do **not** need to change anything manually because this repo now includes the Vercel config file.
 
 Then click:
 
