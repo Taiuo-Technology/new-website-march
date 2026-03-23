@@ -43,7 +43,7 @@ You do **not** need anything inside `legacy/`.
 If you deploy the **full repo** to Vercel, that is also fine now:
 
 - the repo already includes `vercel.json`
-- Vercel is set to serve the site directly from the repo root
+- Vercel is set to build a plain static copy into `dist`
 - `legacy/` is ignored during deployment
 
 ## Step 1: Make a Small Upload Folder
@@ -98,9 +98,9 @@ If Vercel shows build settings, you usually do **not** need to change anything m
 
 This website is now configured as a plain static site on Vercel:
 
-- no build step
-- no `dist` folder needed
-- Vercel serves `index.html` from the repo root
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- the repo creates `dist` automatically during deployment
 
 Then click:
 

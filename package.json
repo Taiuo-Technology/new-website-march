@@ -1,15 +1,11 @@
 {
   "author": "",
   "description": "",
-  "devDependencies": {
-    "parcel": "^2.7.0"
-  },
   "license": "ISC",
   "name": "taiuo-website",
   "private": true,
   "scripts": {
-    "start": "parcel ./*.html",
-    "build": "parcel build ./*.html --dist-dir ./dist"
+    "build": "node scripts/build-static.js"
   },
   "version": "1.0.0"
 }
