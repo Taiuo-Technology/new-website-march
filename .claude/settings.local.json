@@ -1,0 +1,12 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://openrouter.ai/api",
+    "ANTHROPIC_AUTH_TOKEN_OLD": "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",
+    "note:": "personal ID",
+    "ANTHROPIC_AUTH_TOKEN_OLAD_SMAIL": "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", 
+    "note2": "smail",
+    "ANTHROPIC_AUTH_TOKEN": "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",
+    "note3":"tanish.helper",
+    "ANTHROPIC_API_KEY": ""
+  }
+}

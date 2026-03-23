@@ -1,0 +1,14 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "license": "ISC",
+  "name": "taiuo_-_shared_project_(copy)2",
+  "scripts": {
+    "start": "parcel ./*.html ",
+    "build": "parcel build ./*.html  --dist-dir ./build"
+  },
+  "version": "1.0.0"
+}
